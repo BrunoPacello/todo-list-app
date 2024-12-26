@@ -23,7 +23,7 @@ Este es un proyecto de lista de tareas (TODO List) donde el frontend está const
 
    ```bash
    git clone https://github.com/BrunoPacello/todo-list-app.git
-   cd todolist-app/todolist-backend
+   cd todolist-app/todo-list-backend
 
 2.Instala las dependencias del backend:
 
@@ -31,9 +31,11 @@ npm install
 
 3.Asegúrate de que MongoDB esté corriendo o de que hayas configurado una base de datos en MongoDB Atlas.
 
+-mongodb://localhost:27017
+
 4.Inicia el servidor del backend:
 
-npm start
+Node App.js
 
 El servidor backend debería estar corriendo en http://localhost:3000
 
@@ -41,7 +43,7 @@ Frontend
 
 1.En otra terminal, navega a la carpeta del frontend:
 
-cd todolist-app/todolist-frontend
+cd todolist-app/todo-list-react-main
 
 2.Instala las dependencias del frontend:
 
@@ -49,7 +51,7 @@ npm install
 
 3.Inicia el servidor del frontend:
 
-npm start
+npm run dev
 
 Conexión entre Frontend y Backend
 
