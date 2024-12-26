@@ -72,7 +72,7 @@ Funcionalidades
 
 Pruebas
 
-1.Abre el frontend en tu navegador (http://localhost:3001).
+1.Abre el frontend en tu navegador (http://localhost:port).
 
 2.Interactúa con la aplicación para crear, completar, y eliminar tareas.
 
